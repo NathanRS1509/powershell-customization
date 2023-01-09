@@ -25,3 +25,12 @@ Set-Alias ll ls
 Set-Alias grep findstr
 Set-Alias tig 'E:\Program Files\Git\usr\bin\tig.exe'
 Set-Alias less 'E:\Program Files\Git\usr\bin\less.exe'
+
+# Utilities
+function which ($command) {
+  Get-Command -Name $command -ErrorAction SilentlyContinue |
+    Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
+}
+
+
+
