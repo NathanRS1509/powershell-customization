@@ -4,7 +4,7 @@ Set up Windows Powershell for FISH(Friendly Interactive Shell) shell workflow.
 
 Followed tutorial from [@devaslife](https://www.youtube.com/watch?v=5-aK2_WwrmM). His [repository](https://github.com/craftzdog/dotfiles-public).
 
-> :warn: Follow [Oh My Posh oficial site documentation](https://ohmyposh.dev/docs/installation/windows) for installation.
+> :warning: Follow [Oh My Posh oficial site documentation](https://ohmyposh.dev/docs/installation/windows) for installation.
 
 Features:
 
