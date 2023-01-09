@@ -76,7 +76,7 @@ cd ~
 z powershell
 ```
 
-# Autocompletion
+# [Autocompletion - PSReadLine](https://learn.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.3)
 
 if not installed by default proceed to installation:
 
@@ -88,5 +88,16 @@ Set-PSReadLineOption -PredictionsSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 ```
 
+# [Fuzzy finder](https://github.com/kelleyma49/PSFzf)
+
+Install filter for command-line:
+
+```powershell
+ scoop install fzf
+
+ Install-Module -Name PSFzf -Scope CurrentUser -Force
+
+ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
+```
 
 
