@@ -62,7 +62,7 @@ Install Oh My Posh (Prompt theme engine):
 Install-Module posh-git -Scope CurrentUser -Force
 Install-Module oh-my-posh -Scope CurrentUser -Force
 ```
-# Terminal Icons
+# [Terminal Icons](https://github.com/devblackops/Terminal-Icons)
 
 Install Terminal Icons:
 
@@ -74,7 +74,7 @@ Install-Module -Name Terminal-Icons -Repository PSGallery -Force
 Import-Module Terminal-Icons
 ```
 
-# Directory Jumper
+# [Directory Jumper](https://www.powershellgallery.com/packages/z/1.1.13)
 
 Install `z` directory jumper. Tracks most used directories and makes use of regex for matches:
 
