@@ -18,7 +18,7 @@ Set-PSReadLineOption -PredictionSource History
 Import-Module PSFzf
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 
-# ALias
+# Alias
 Set-Alias vim nvim
 Set-Alias g git
 Set-Alias ll ls
@@ -32,5 +32,7 @@ function which ($command) {
     Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
 
-
+function gcmt([string]$message) {
+	git commit -m $message
+}
 
