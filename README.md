@@ -1,3 +1,5 @@
+![terminal screenshot](./images/neofetch.png)
+
 # Windows PowerShell Customization
 
 Set up Windows Powershell for FISH(Friendly Interactive Shell) shell workflow.
