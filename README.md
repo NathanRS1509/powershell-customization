@@ -1,5 +1,19 @@
 # Windows PowerShell Customization
 
+Set up Windows Powershell for FISH(Friendly Interactive Shell) shell workflow.
+
+Followed tutorial from [@devaslife](https://www.youtube.com/watch?v=5-aK2_WwrmM). His [repository](https://github.com/craftzdog/dotfiles-public).
+
+> :warn: Follow [Oh My Posh oficial site documentation](https://ohmyposh.dev/docs/installation/windows) for installation.
+
+Features:
+
+- Customizable theme for powershell
+- Directory jumping with z
+- filtering tool with fzf
+- Exemples of aliases for commands
+
+
 # [Scoop for Windows](https://scoop.sh/#/)
 
 Install scoop command-line installer for windows:
@@ -92,6 +106,9 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 
 Install filter for command-line:
 
+- `ctrl+r` to search command history
+- `ctrl+f` to search files ...
+
 ```powershell
  scoop install fzf
 
@@ -99,5 +116,8 @@ Install filter for command-line:
 
  Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 ```
+
+
+
 
 
