@@ -2,9 +2,10 @@
 #
 # i.e of theme from oh my posh webiste
 # oh-my-posh init pwsh --config "$(scoop prefix oh-my-posh)\themes\paradox.omp.json" | Invoke-Expression
+[console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 
 $omp_config = Join-Path $PSScriptRoot ".\takuya.omp.json"
-oh-my-posh init pwsh --config $omp_config  | Invoke-Expression
+oh-my-posh --init --shell pwsh --config $omp_config  | Invoke-Expression
 
 Import-Module -Name Terminal-Icons
 
