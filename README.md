@@ -99,7 +99,7 @@ if not installed by default proceed to installation:
 ```powershell
 Install-Module -Name PsReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 
-Set-PSReadLineOption -PredictionsSource History
+Set-PSReadLineOption -PredictionSource History
 
 Set-PSReadLineOption -PredictionViewStyle ListView
 ```
