@@ -7,6 +7,8 @@
 $omp_config = Join-Path $PSScriptRoot ".\takuya.omp.json"
 oh-my-posh --init --shell pwsh --config $omp_config  | Invoke-Expression
 
+
+# if icons not working see: https://github.com/devblackops/Terminal-Icons/issues/99#issuecomment-1478390425
 Import-Module -Name Terminal-Icons
 
 # PSReadLine
@@ -36,4 +38,3 @@ function which ($command) {
 function gcmt([string]$message) {
 	git commit -m $message
 }
-
